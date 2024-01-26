@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: delete-account-app
-        image: conano/delete-account-handler:0.0.1-1
+        image: conano/delete-account-handler:0.0.1-2
         envFrom:
         - secretRef:
             name: delete-account-secret
